@@ -1,0 +1,2 @@
+# presidentialcandidatenumbers
+#Create a data-frame for your info     Name &lt;- c("Jeb", "Donald", "Ted", "Marco", "Carly", "Hillary", "Bernie")  ABC_political_poll_results &lt;- c(4,62,51,21,2,14,15)  CBS_political_poll_results &lt;- c(12,75,43,19,1,21,19)  #Run the polls.df   polls &lt;- >cbind(Name,ABC_political_poll_results,CBS_political_poll_results)  polls  polls.df &lt;- data.frame(Name,ABC_political_poll_results,CBS_political_poll_results)  polls.df  #Find the mean of the data frame  lapply(polls.df[,2:3],mean)  $ABC_political_poll_results
